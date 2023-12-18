@@ -2,5 +2,5 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, "*.marriott.com")) {
         return "DIRECT";
     }
-    return "HTTPS proxy.example.com:8080";
+    return "PROXY 103.139.47.170:8080";
 }
